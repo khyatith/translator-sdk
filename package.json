@@ -1,0 +1,14 @@
+{
+  "name": "my-translation-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Translation SDK",
+  "main": "dist/translation-sdk.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.2.0",
+    "rollup": "^3.20.0"
+  }
+}
